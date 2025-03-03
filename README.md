@@ -36,12 +36,15 @@ To run the project, run:
 ```
 
 ## Testing Atomic Models
-To test individual components of the system (such as substitution logic and player evaluation), navigate to the `bin` directory and run:
+To test individual components of the system (such as substitution logic and player models), navigate to the `bin` directory and run:
 ```sh
-cd bin
-./substitution_logic_tester
-./player_tester
-./game_score_tester
+./bin/substitution_logic_tester
+```
+```sh
+./bin/player_tester
+```
+```sh
+./bin/game_score_tester
 ```
 
 ## Output Files
