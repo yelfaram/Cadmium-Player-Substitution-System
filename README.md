@@ -20,6 +20,7 @@ Before executing and testing the system, please ensure that the absolute paths f
 - **main/include/test/player/player_tester.hpp** – Input files are located in `input_data/player/`
 - **main/include/test/substitution_logic/substitution_logic.hpp** – Input files are located in `input_data/substitution_logic/`
 - **main/include/top/coach.hpp** – Input files are located in `input_data/top/`
+
 __NOTE__: This change is needed to ensure **IEStream** reads the correct file from the right location.
 
 ### How to Update File Paths
